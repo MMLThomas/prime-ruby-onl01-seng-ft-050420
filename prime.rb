@@ -1,9 +1,9 @@
 # Add  code here!
 def prime?(int)
-  int_array = [2..int]
-  i = 0
-  is_prime = true
   if int > 1
+    i = 0
+    is_prime = true
+    int_array = [2..int]
     while i < int_array.length
       if int%int_array[i] == 0
         is_prime = false
