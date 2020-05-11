@@ -4,7 +4,7 @@ def prime?(int)
     is_prime = true
     int_array = (2..(int-1))
     int_array.each do |num|
-      if num % int == 0
+      if int % num == 0
         is_prime = false
       end
     end
