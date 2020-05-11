@@ -6,6 +6,7 @@ def prime?(int)
     int_array.each do |num|
       if int % num == 0
         is_prime = false
+        break
       end
     end
   else
