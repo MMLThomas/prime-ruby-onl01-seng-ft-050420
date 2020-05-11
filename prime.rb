@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(int)
-  int_array = [2...int]
+  int_array = [2...(int)]
   i = 0
   is_prime = true
   if int > 1
