@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(int)
-  if int > 1
+  if int > 2
     is_prime = true
     int_array = (2..(int-1))
     int_array.each do |num|
@@ -8,6 +8,8 @@ def prime?(int)
         is_prime = false
       end
     end
+  elsif int == 2
+    is_prime = true
   else
     is_prime = false
   end
