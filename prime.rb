@@ -4,8 +4,9 @@ def prime?(int)
     i = 0
     is_prime = true
     int_array = (2..int)
+    int_arra = int_array.split
     while i < int_array.size
-      if int%int_array[i] == 0
+      if int%int_arra[i] == 0
         is_prime = false
       end
       i += 1
