@@ -7,6 +7,7 @@ def prime?(int)
       if num % int == 0
         is_prime = false
       end
+    end
   else
     is_prime = false
   end
